@@ -9,10 +9,10 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
     <div className="mx-auto max-w-2xl px-4">
       <div className="flex flex-col gap-2 rounded-lg border bg-background p-8">
         <h1 className="text-lg font-semibold">
-          Welcome to the Twilio Segment Finance Copilot
+          Chat with Rei
         </h1>
         <p className="leading-normal text-muted-foreground">
-          This is an open source AI chatbot app template with baked in model observability built with:{' '}<br></br>
+          REI is an open source AI chatbot app with baked in model observability built with:{' '}<br></br>
           <ExternalLink href="https://segment.com/customer-data-platform/">Twilio Segment</ExternalLink>, {' '}
           <ExternalLink href="https://nextjs.org">Next.js</ExternalLink>, the{' '}
           <ExternalLink href="https://sdk.vercel.ai">
@@ -25,7 +25,7 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
           .
         </p>
         <p className="leading-normal text-muted-foreground">
-        `You can ask me things like:<br></br> &ldquo;What&rsquo;s the price of a certain stock?&rdquo;<br></br> &ldquo;What are five great stocks?&rdquo;<br></br>&ldquo;Buy 300 stocks&rdquo;`
+        `You can ask me things like:<br></br> &ldquo;What&rsquo;s the price of a certain stock?&rdquo;<br></br> &ldquo;What are segments in python?&rdquo;<br></br>&ldquo;Generate a food plan for a family of 8&rdquo;`
         </p>
       </div>
     </div>
